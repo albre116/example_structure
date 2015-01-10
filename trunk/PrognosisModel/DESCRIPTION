@@ -1,0 +1,17 @@
+Package: PrognosisModel
+Title: Models Prognosis and Calculate Prognosis Probabilities
+Version: 0.0.0.9000
+Authors@R: as.person(c(
+    "Pradeep Bashyal <pbashyal@nmdp.org> [aut, cre]",
+    "Stephanie Fingerson <sdiprima@nmdp.org> [aut, cre]",
+    "NMDP [cph]"
+    ))
+Description: Models Prognosis and Calculate Prognosis Probabilities
+Depends:
+    R (>= 3.1.1)
+License: Copyright, NMDP
+LazyData: true
+Suggests:
+    testthat
+Imports:
+    MASS

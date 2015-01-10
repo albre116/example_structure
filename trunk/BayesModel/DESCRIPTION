@@ -1,0 +1,10 @@
+Package: BayesModel
+Title: Returns Race Probabilities Given an Imputed List of Haplotype Probs and Races
+Version: 0.0.0.9000
+Authors@R: "Mark Albrecht <malbrech@nmdp.org> [aut, cre]"
+Description: Performs a bayes classification of an individual based upon Prior Race Assumptions and HLA Frequencies
+Depends: R (>= 3.1)
+License: copyright NMDP
+LazyData: true
+Imports: HaplotypeServiceClient
+Suggests: testthat

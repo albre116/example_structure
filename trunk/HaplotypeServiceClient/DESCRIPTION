@@ -1,0 +1,18 @@
+Package: HaplotypeServiceClient
+Title: Webservice client for retrieving Haplotypes and SIRE information.
+Version: 0.0.1
+Authors@R: as.person(c(
+    "Pradeep Bashyal <pbashyal@nmdp.org> [aut, cre]",
+    "Stephanie Fingerson <sdiprima@nmdp.org> [aut, cre]",
+    "NMDP [cph]"
+    ))
+Description: Webservice client for retrieving Haplotypes and SIRE information.
+Depends:
+    R (>= 3.1.1)
+License: Copyright, NMDP
+LazyData: true
+Suggests:
+    testthat
+Imports:
+    RCurl,
+    rjson
